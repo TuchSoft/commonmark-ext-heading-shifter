@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TuchSoft\CommonmarkHeadingShifter;
+namespace TuchSoft\CommonMarkHeadingShifter;
 
 use League\CommonMark\Node\Node;
 use League\CommonMark\Extension\CommonMark\Node\Block\Heading;
@@ -9,7 +9,7 @@ use League\CommonMark\Node\Query;
 use League\CommonMark\Event\DocumentParsedEvent;
 
 
-class CommonmarkHeadingShifter
+class CommonMarkHeadingShifter
 {
     private int $shiftBy;
 

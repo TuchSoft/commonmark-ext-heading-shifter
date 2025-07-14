@@ -4,7 +4,7 @@
 /**
  * This file is part of the tuchosft/commonmark-heading-shifter project.
  *
- * @package   TuchSoft/CommonmarkHeadingShifter
+ * @package   TuchSoft/CommonMarkHeadingShifter
  * @author    Mattia Bonzi <mattia@tuchsoft.com>
  * @copyright 2025 TuchSoft (https://tuchsoft.com)
  * @license   https://opensource.org/licenses/MIT MIT License
@@ -30,7 +30,7 @@
  */
 
  
-namespace TuchSoft\CommonmarkHeadingShifter;
+namespace TuchSoft\CommonMarkHeadingShifter;
 
 
 use League\CommonMark\Event\DocumentParsedEvent;
@@ -40,7 +40,7 @@ use League\Config\ConfigurationBuilderInterface;
 use Nette\Schema\Expect;
 
 
-class CommonmarkHeadingShifterExtension implements ConfigurableExtensionInterface
+class CommonMarkHeadingShifterExtension implements ConfigurableExtensionInterface
 {
     /**
      * @param ConfigurationBuilderInterface $builder
@@ -60,7 +60,7 @@ class CommonmarkHeadingShifterExtension implements ConfigurableExtensionInterfac
     public function register(EnvironmentBuilderInterface $environment): void
     {
         $environment->addEventListener(DocumentParsedEvent::class, [
-            new CommonmarkHeadingShifter(
+            new CommonMarkHeadingShifter(
                 $environment->getConfiguration()->get('heading_shifter.shift_by')
             ), 
             'onDocumentParsed']);

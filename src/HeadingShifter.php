@@ -9,7 +9,7 @@ use League\CommonMark\Node\Query;
 use League\CommonMark\Event\DocumentParsedEvent;
 
 
-class CommonMarkHeadingShifter
+class HeadingShifter
 {
     private int $shiftBy;
 

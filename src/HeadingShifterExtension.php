@@ -40,7 +40,7 @@ use League\Config\ConfigurationBuilderInterface;
 use Nette\Schema\Expect;
 
 
-class CommonMarkHeadingShifterExtension implements ConfigurableExtensionInterface
+class HeadingShifterExtension implements ConfigurableExtensionInterface
 {
     /**
      * @param ConfigurationBuilderInterface $builder
@@ -60,7 +60,7 @@ class CommonMarkHeadingShifterExtension implements ConfigurableExtensionInterfac
     public function register(EnvironmentBuilderInterface $environment): void
     {
         $environment->addEventListener(DocumentParsedEvent::class, [
-            new CommonMarkHeadingShifter(
+            new HeadingShifter(
                 $environment->getConfiguration()->get('heading_shifter.shift_by')
             ), 
             'onDocumentParsed']);

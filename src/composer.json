@@ -1,0 +1,36 @@
+{
+    "name": "tuchsoft/commonmark-heading-shifter",
+    "description": "A CommonMark extension to adjust (decrease) heading levels by a custom amount.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "commonmark-extension",
+    "minimum-stability": "stable",
+    "keywords": [
+        "commonmark",
+        "extension",
+        "markdown",
+        "headings",
+        "level",
+        "shifter"
+    ],
+    "authors": [
+        {
+            "name": "Mattia Bonzi",
+            "email": "mattia@tuchsoft.com",
+            "homepage": "https://tuchsoft.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tuchsoft/commonmark-heading-shifter/issues",
+        "source": "https://github.com/tuchsoft/commonmark-heading-shifter"
+    },
+    "autoload": {
+        "psr-4": {
+            "TuchSoft\\CommonmarkHeadingShifter\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "league/commonmark": "^2.0"
+    }
+}

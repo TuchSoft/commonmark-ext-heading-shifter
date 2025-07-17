@@ -1,5 +1,5 @@
 {
-    "name": "tuchsoft/commonmark-heading-shifter",
+    "name": "tuchsoft/commonmark-ext-heading-shifter",
     "description": "A CommonMark extension to adjust (decrease) heading levels by a custom amount.",
     "license": "MIT",
     "type": "commonmark-extension",

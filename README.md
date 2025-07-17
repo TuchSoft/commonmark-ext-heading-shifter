@@ -1,5 +1,6 @@
 # commonmark-ext-heading-shifter
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![Copyright: Tuchsoft](https://img.shields.io/badge/%C2%A9-Tuchsoft-7519e2.svg)](https://tuchsoft.com)
 
 CommonMark extension for shifting heading levels by a configurable amount of levels.
 

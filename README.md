@@ -15,7 +15,7 @@ composer require tuchsoft/commonmark-title-shifter
 ```php
 use League\CommonMark\CommonMarkConverter;
 use League\CommonMark\Environment;
-use TuchSoft\CommonMarkHeadingShifter\CommonMarkHeadingShifterExtension;
+use TuchSoft\CommonMarkHeadingShifter\HeadingShifterExtension;
 
 $converter = new CommonMarkConverter([
     'title_shifter' => [
@@ -23,8 +23,9 @@ $converter = new CommonMarkConverter([
         ]
     ]);
 
-$converter->getEnvironment()->addExtension(new CommonMarkHeadingShifterExtension());
+$converter->getEnvironment()->addExtension(new HeadingShifterExtension());
 
+$converter->convertToHtml("# Heading"); //<h2>Heading</h2>
 ```
 
 ## Author

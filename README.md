@@ -1,4 +1,4 @@
-# commonmark-title-shifter
+# commonmark-ext-heading-shifter
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](github.com/mattiabonzi/phpvarparser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
@@ -8,7 +8,7 @@ CommonMark extension for shifting heading levels by a configurable amount of lev
 ## Install
 
 ```sh
-composer require tuchsoft/commonmark-title-shifter
+composer require tuchsoft/commonmark-ext-heading-shifter
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ use League\CommonMark\Environment;
 use TuchSoft\CommonMarkHeadingShifter\HeadingShifterExtension;
 
 $converter = new CommonMarkConverter([
-    'title_shifter' => [
+    'heading_shifter' => [
         'shift_by' => 1
         ]
     ]);

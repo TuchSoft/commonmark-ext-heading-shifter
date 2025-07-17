@@ -2,7 +2,7 @@
 
 
 /**
- * This file is part of the tuchosft/commonmark-heading-shifter project.
+ * This file is part of the tuchosft/commonmark-ext-heading-shifter project.
  *
  * @package   TuchSoft/CommonMarkHeadingShifter
  * @author    Mattia Bonzi <mattia@tuchsoft.com>

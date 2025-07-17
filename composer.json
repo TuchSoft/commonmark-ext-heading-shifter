@@ -20,8 +20,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/tuchsoft/commonmark-heading-shifter/issues",
-        "source": "https://github.com/tuchsoft/commonmark-heading-shifter"
+        "issues": "https://github.com/tuchsoft/commonmark-ext-heading-shifter/issues",
+        "source": "https://github.com/tuchsoft/commonmark-ext-heading-shifter"
     },
     "autoload": {
         "psr-4": {
